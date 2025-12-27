@@ -16,6 +16,7 @@ const App = () => {
   const {token}=useAppContext()
   return (
     <div>
+      
       <Toaster/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -27,11 +28,13 @@ const App = () => {
         <Route path='addBlog' element={<AddBlog/>}/>
         <Route path='listBlog' element={<ListBlog/>}/>
         <Route path='comments' element={<Comments/>}/>
+       
 
       </Route>
 
 
       </Routes>
+       
     </div>
   )
 }

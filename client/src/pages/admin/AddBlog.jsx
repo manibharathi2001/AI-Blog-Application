@@ -22,14 +22,14 @@ const AddBlog = () => {
 
   const onSubmitHandler =async (e) => {
     try{
-      e.prevent.default()
+      e.preventDefault()
       setIsAdding(true)
 
       const blog={
-        title,subTitle,
+        title,subTitle,category,isPublished,
         description:quillRef.current.root.innerHTML
       }
-      const formData=new formData
+      const formData=new FormData()
       formData.append('blog',JSON.stringify(blog))
       formData.append('image',image)
 
