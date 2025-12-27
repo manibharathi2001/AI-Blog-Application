@@ -1,8 +1,8 @@
-# AI Blog Application 🚀
+# AI Blog Application
 
 An AI-powered blogging platform built with the MERN stack (MongoDB, Express, React, Node.js). This application features automated blog content generation using Google Gemini AI, seamless image management with ImageKit, and a robust admin dashboard for managing content.
 
-## ✨ Features
+## Features
 
 - **AI Content Generation**: Leverage Google Gemini to generate professional blog posts instantly.
 - **Admin Dashboard**: Comprehensive stats (Blogs, Comments, Drafts) and recent activity monitoring.
@@ -11,7 +11,7 @@ An AI-powered blogging platform built with the MERN stack (MongoDB, Express, Rea
 - **Responsive UI**: Modern, fast, and fully responsive design across all devices.
 - **Security**: JWT-based authentication for admin operations and secure API handling.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React, Vite, Tailwind CSS, Motion, Axios
 - **Backend**: Node.js, Express, Mongoose
@@ -20,7 +20,7 @@ An AI-powered blogging platform built with the MERN stack (MongoDB, Express, Rea
 - **Image Handling**: ImageKit.io
 - **Deployment**: Vercel
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 ### Backend (`/server/.env`)
 ```env
@@ -39,7 +39,7 @@ GEMINI_API_KEY=your_gemini_api_key
 VITE_BACKEND_URL=http://localhost:3000
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -63,7 +63,7 @@ npm install
 npm run dev
 ```
 
-## 🌍 Deployment on Vercel
+## Deployment on Vercel
 
 1. **Deploy Backend**: 
    - Root directory: `server/`
@@ -77,4 +77,4 @@ npm run dev
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Built with ❤️ by [Mani Bharathi](https://github.com/manibharathi2001)
+Built by [Mani Bharathi](https://github.com/manibharathi2001)
